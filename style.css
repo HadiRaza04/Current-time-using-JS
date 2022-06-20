@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #ffe3e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container img {
+    width: 75%;
+    height: 500px;
+}
+.container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.quotes {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500px;
+}
+.quotes h2 {
+    font-size: 45px;
+    margin-top: 10px;
+    font-weight: 500px;
+}
+
+
+
+
